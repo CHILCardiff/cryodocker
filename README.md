@@ -6,8 +6,9 @@ To create the image, from the directory containing the Dockerfile:
 foo@bar:~$ docker build . -t 'mariadbtest'
 ```
 
-Then to create the image:
+Then to create the container:
 
 ```console
 foo@bar:~$ >> docker run --name mariadbtest -e MARIADB_ROOT_PASSWORD=cryoparty -v $HOME/cryorepos/:/var/lib/cryorepos/ -d mariadbtest
 ```
+
