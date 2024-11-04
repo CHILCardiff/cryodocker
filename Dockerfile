@@ -8,4 +8,6 @@ RUN apt-get -y install software-properties-common
 RUN add-apt-repository -y ppa:deadsnakes/ppa
 RUN apt-get update
 RUN apt -y install python3.12
+RUN touch .bashrc
+RUN echo "alias python='python3.12'" >> .bashrc
 
