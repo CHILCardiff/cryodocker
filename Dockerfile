@@ -27,4 +27,5 @@ WORKDIR /var/lib/cryorepos
 RUN useradd -ms /bin/bash chiltest
 RUN chown --recursive chiltest /var/lib/cryorepos 
 RUN chown --recursive chiltest /var/lib/mysql
+
 USER chiltest
