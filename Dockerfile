@@ -5,7 +5,7 @@ WORKDIR /usr/local/src
 # Update apt
 RUN apt update
 
-EXPOSE 3060
+EXPOSE 3306
 
 WORKDIR /var/lib/cryorepos
 
